@@ -1,0 +1,40 @@
+body{
+	padding-top: 2em;
+}
+.complete,
+.canceled{
+	text-decoration: line-through;
+	display: none;
+}
+
+shh{
+	display: none;
+}
+h1:hover shh,
+h2:hover shh,
+h3:hover shh,
+h4:hover shh{
+	display: inline;
+}
+
+.agrogator{
+	height: 600px;
+	overflow: scroll;
+	border: 1px solid #ededed;
+	padding: .25rem;
+}
+.agrogator_container{
+	padding-bottom: 1rem;
+}
+.story_container{
+	padding: 1em 0 1em 0;
+}
+.story_container p{
+	color: #c7c7c7;	
+}
+.story_container i{
+	display: block;
+}
+.news{
+	display: none;
+}
